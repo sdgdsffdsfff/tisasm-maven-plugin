@@ -1,4 +1,4 @@
-package com.dfire.tis.maven.plugin;
+package com.qlangtech.tis.maven.plugin;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
