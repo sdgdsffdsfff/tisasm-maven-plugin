@@ -42,7 +42,7 @@ public class TisSingleAssemblyMojo extends SingleAssemblyMojo {
 		if ("all".equals(appname)) {
 			// 所有的工程都需要打包
 			log.info("appname:" + appname + " will assemble all module");
-			return false;
+			return true;
 		}
 
 		if (StringUtils.isEmpty(appname)) {

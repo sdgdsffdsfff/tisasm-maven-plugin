@@ -8,7 +8,7 @@
         <version>1.0.0</version>
     </parent>
 	<artifactId>tisasm-maven-plugin</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	
 	<packaging>maven-plugin</packaging>
 
@@ -20,7 +20,13 @@
 	</properties>
 
 	<dependencies>
-		
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.13</version>
+		</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -40,6 +46,13 @@
 			<version>3.4</version>
 			<scope>provided</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.aliyun.oss</groupId>
+			<artifactId>aliyun-sdk-oss</artifactId>
+			<version>3.8.0</version>
+		</dependency>
 		
 	</dependencies>
+
 </project>
